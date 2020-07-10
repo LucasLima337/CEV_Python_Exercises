@@ -1,2 +1,5 @@
-# CEV_Python_Exercicios
- Lista completa de todos os exercícios de python do Curso em Vídeo
+# CEV Exercicios Python
+
+## Lista completa de todos os exercícios de python do Curso em Vídeo!
+
+**OBS: Em andamento...**
