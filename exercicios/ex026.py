@@ -1,0 +1,15 @@
+# Primeira e última ocorrência de uma string
+import emoji
+e = emoji.emojize(':a:', use_aliases=True)
+f = str(input('Digite uma frase: ')).strip().lower()
+mod = f.replace('ã', 'a').replace('á', 'a').replace('â', 'a').replace('à', 'a')
+at = mod.count('a')
+ap = mod.find('a')
+au = mod.rfind('a')
+print('')
+print('=#=' * 15)
+print(f'Frase Digitada: {f.capitalize()}')
+print(f'Quantidade de letras {e} na frase: {at} vezes')
+print(f'Onde aparece na primeira vez: Posição {ap + 1}')
+print(f'Onde aparece na última vez: Posição {au + 1}')
+print('=#=' * 15)
